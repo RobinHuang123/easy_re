@@ -13,7 +13,7 @@ s = "123:abcdefg"
 match =  re.match(r'(\d+):([a-z]+)', s)
 if match:
     k = match.group(0)
-    k = match.group(1)
+    v = match.group(1)
 
 ===Now, the easy_re will help you
 import easy_re
